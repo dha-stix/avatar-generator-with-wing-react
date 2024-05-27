@@ -1,0 +1,59 @@
+.app {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.title {
+	margin-bottom: 5px;
+	color: #850f8d;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+@media screen and (max-width: 768px) {
+	.form {
+		width: 100%;
+	}
+	.app {
+		padding: 0 20px;
+	}
+}
+input,
+.genderInput {
+	padding: 10px 15px;
+	border-radius: 2px;
+	border: 1px solid #b4b4b8;
+	margin-bottom: 20px;
+}
+.textInput {
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+button {
+	padding: 10px;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background-color: #c738bd;
+	color: white;
+	border-radius: 2px;
+}
+button:hover {
+	background-color: #850f8d;
+}
+.downloadLink {
+	padding: 10px 20px;
+	background-color: #c738bd;
+	color: #f2f2f2;
+	border-radius: 3px;
+	margin: 10px 0px;
+	text-decoration: none;
+}
